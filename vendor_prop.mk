@@ -53,6 +53,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.vendor.shutdown.waittime=500
 
+# Better signal
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.hw_fast_dormancy=1 \
+    persist.cust.tel.eons=1
+    
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.display.umax=1920x1080 \
