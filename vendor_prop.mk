@@ -57,7 +57,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.hw_fast_dormancy=1 \
     persist.cust.tel.eons=1
-    
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.display.umax=1920x1080 \
@@ -72,6 +72,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1
+
+# Cpu
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.processor.model=Snapdragon_425
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -139,6 +143,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=Maungzy
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     mm.enable.qcom_parser=4176895 \
@@ -154,7 +162,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q660-13149-1
-    
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
