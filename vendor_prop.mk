@@ -145,7 +145,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.maintainer.name=Maungzy
+    ro.maintainer.name=Māungzy
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
